@@ -2,7 +2,7 @@ from functools import wraps
 from flask import request, jsonify
 import jwt
 
-SECRET_KEY = "SECRET"
+SECRET_KEY = "super_secret_key"
 
 
 def token_required(f):
